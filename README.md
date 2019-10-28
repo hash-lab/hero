@@ -1,3 +1,5 @@
+The App is live on for preview please go: [https://ng-hero-material.firebaseapp.com/](https://ng-hero-material.firebaseapp.com/dashboard)
+
 # Tour of Hero app with Angular Material Design:
 
 ### Required Environment:
@@ -72,5 +74,3 @@ ___
 
 ![Desktop Message Box](./readme-assets/desktop-message.png)
 
-* This app is soon to be published in firebase free-tier 
-* link coming soon.*
