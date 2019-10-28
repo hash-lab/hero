@@ -32,23 +32,23 @@ $ ng serve
 
 ### MOBILE VIEW:
 
-<div style="display: flex; flex-direction: row">
-	<img src="./readme-assets/mobile-dashboard.png" style="width=295px; height: 490px;">
-	<img src="./readme-assets/mobile-hero-list.png" style="width=295px; height: 490px">
-	<img src="./readme-assets/mobile-hero-detail.png" style="width:295px; height: 490px">
+<div style="display: inline-flex;">
+	<img src="./readme-assets/mobile-dashboard.png" style="width=290px; height: 485px;">
+	<img src="./readme-assets/mobile-hero-list.png" style="width=290px; height: 485px">
+	<img src="./readme-assets/mobile-hero-detail.png" style="width:290px; height: 485px">
 </div>
 
 
 ### DESKTOP VIEW:
 
 ![Desktop Dashboard View](./readme-assets/desktop-dashboard.png)
-<p style="background-color: #f7f7f7; padding: 5px"> Hero Dashboard on Desktop</p>
+> Hero Dashboard on Desktop
 
 ![Desktop Hero List View](./readme-assets/desktop-hero-list.png)
-<p style="background-color: #f7f7f7; padding: 5px"> Hero List on Desktop</p>
+> Hero List on Desktop
 
 ![Desktop Hero Detail View](./readme-assets/desktop-hero-detail.png)
-<p style="background-color: #f7f7f7; padding: 5px"> Hero Detail on Desktop</p>
+> Hero Detail on Desktop
 
 #### Future development idea:
 
