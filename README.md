@@ -1,27 +1,51 @@
-# Hero
+# Tour of Hero app the angular official tutorial for angular 8.3.12:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+### Required Environment:
 
-## Development server
+1. Windows/ Linux/ Mac system
+2. NodeJs installed 10 or higher
+3. Install angular/cli using $ npm install -g @angular/cli@latest
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Clone the app & run in the dev server:
 
-## Code scaffolding
+$ git clone https://github.com/hash-lab/hero.git
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+$ cd hero
 
-## Build
+$ npm install 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+$ ng serve
 
-## Running unit tests
+### App of Tour of the Heroes:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> This application shows the basics of every aspects of angular 8.
+>
+> The App has three route paths i.e: /dashboard , /heroes, and /detail/:id 
+>
+> The App uses mock database HttpClientInMemoryWebApiModule a package, that
+>
+> simulates  database operations like GET, PUT, DELETE, POST
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+### Some screenshots from the app:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### MOBILE VIEW:
+
+![Mobile Dashboard View](./readme-assets/mobile-dashboard.png)![Mobile Hero List View](./readme-assets/mobile-hero-list.png)![Mobile Hero Detail View](./readme-assets/mobile-hero-detail.png)
+
+
+
+### DESKTOP VIEW:
+
+![Desktop Dashboard View](./readme-assets/desktop-dashboard.png)![Desktop Hero List View](./readme-assets/desktop-hero-list.png)![Desktop Hero Detail View](./readme-assets/desktop-hero-detail.png)
+
+
+
+#### Future development idea:
+
+> Complete turnover of the app using Angular Material and Google Material Icons. Look for the other branch.
+>
+> hero/${branch -- material-hero }
+>
+> Coming Soon.
