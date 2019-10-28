@@ -1,5 +1,3 @@
-<div style="background-color: #f7f7f7">
-
 # Tour of Hero app the angular official tutorial for angular 8.3.12:
 
 ### Required Environment:
@@ -34,12 +32,7 @@ $ ng serve
 
 ### MOBILE VIEW:
 
-<div style="display: inline-flex;">
-	<img src="./readme-assets/mobile-dashboard.png" style="width=290px; height: 485px;">
-	<img src="./readme-assets/mobile-hero-list.png" style="width=290px; height: 485px">
-	<img src="./readme-assets/mobile-hero-detail.png" style="width:290px; height: 485px">
-</div>
-
+![Mobile View](./readme-assets/mobile-view.png)
 
 ### DESKTOP VIEW:
 
@@ -59,5 +52,3 @@ $ ng serve
 > hero/${branch -- material-hero }
 >
 > Coming Soon.
-
-</div>
