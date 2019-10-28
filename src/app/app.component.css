@@ -8,21 +8,26 @@ h1 {
     margin-top: 0;
     padding-top: 0;
   }
-  nav a {
-    padding: 5px 10px;
+
+  .caption{
+    padding-left: 10px;
+  }
+
+  mat-sidenav-container, mat-sidenav, mat-sidenav-content{
+    height: 100%;
+  }
+  mat-sidenav{
+    width: 230px;
+  }
+  .container{
+    max-width: 1024px;
+  }
+  a{
     text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-    background-color: #eee;
-    border-radius: 4px;
+    color: #fff;
   }
-  nav a:visited, a:link {
-    color: #334953;
+
+.side-nav-link:hover{
+    background-color: #000;
   }
-  nav a:hover {
-    color: #039be5;
-    background-color: #cfd8dc;
-  }
-  nav a.active {
-    color: #039be5;
-  }
+  

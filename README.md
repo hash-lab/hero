@@ -1,4 +1,4 @@
-# Tour of Hero app the angular official tutorial for angular 8.3.12:
+# Tour of Hero app with Angular Material Design:
 
 ### Required Environment:
 
@@ -26,29 +26,51 @@ $ ng serve
 >
 > simulates  database operations like GET, PUT, DELETE, POST
 
+### Material Design Added:
 
+> It's an awesome way to make your website beautiful without getting your hand dirty with 
+>
+> css and javascript heap. This app uses a dark theme Purple-Grey from material pre-built 
+>
+> themes.
 
 ### Some screenshots from the app:
 
 ### MOBILE VIEW:
+___
 
-![Mobile View](./readme-assets/mobile-views.png)
+#### (From left to right) : Sidenav - Dashboard - Message Box
+
+![Mobile View Part One](./readme-assets/mobile-view-one.png)
+
+
+#### (From left to right) : Heroes List - Seach Box - Hero Detail 
+
+![Mobile View Part Two](./readme-assets/mobile-view-two.png)
+
 
 ### DESKTOP VIEW:
+___
 
-![Desktop Dashboard View](./readme-assets/desktop-dashboard.png)
-> Hero Dashboard on Desktop
+#### Desktop Dashboard
 
-![Desktop Hero List View](./readme-assets/desktop-hero-list.png)
-> Hero List on Desktop
+![Desktop Dashboard](./readme-assets/desktop-dashboard.png)
 
-![Desktop Hero Detail View](./readme-assets/desktop-hero-detail.png)
-> Hero Detail on Desktop
+#### Desktop Hero List
 
-#### Future development idea:
+![Desktop Heroes List](./readme-assets/desktop-hero-list.png)
 
-> Complete turnover of the app using Angular Material and Google Material Icons. Look for the other branch.
->
-> hero/${branch -- material-hero }
->
-> Coming Soon.
+#### Desktop Hero Detail
+
+![Desktop Hero Detail](./readme-assets/desktop-detail.png)
+
+#### Desktop Search Box
+
+![Desktop Search Box](./readme-assets/desktop-search.png)
+
+#### Desktop Message Box
+
+![Desktop Message Box](./readme-assets/desktop-message.png)
+
+* This app is soon to be published in firebase free-tier 
+* link coming soon.*

@@ -1,7 +1,83 @@
-<h1>{{title}}</h1>
-<nav>
-    <a routerLink="/dashboard">Dashboard</a>
-    <a routerLink="/heroes">Heroes</a>
-</nav>
-<router-outlet></router-outlet>
-<app-messages></app-messages>
+<mat-sidenav-container>
+    <mat-sidenav
+    mode="over"
+    #sidenav
+    fxHide.gt-md>
+        <mat-list>
+            <a mat-list-item
+               class="side-nav-link" 
+               routerLink="/dashboard"
+               routerLinkActive="active"
+               (click)="sidenav.close()">
+                <mat-icon color="accent">dashboard</mat-icon>
+                <span class="caption">
+                    Dashboard
+                </span>
+            </a>
+            <a mat-list-item 
+               class="side-nav-link"
+               routerLink="/heroes"
+               routerLinkActive="active"
+               (click)="sidenav.close()">
+                <mat-icon color="accent">person</mat-icon>
+                <span class="caption">
+                    Heroes
+                </span>
+            </a>
+        </mat-list>
+    </mat-sidenav>
+
+    <mat-sidenav #messageNav
+        mode="over"
+        position="end"
+        autosize>
+        <mat-sidenav-content style="height: 100%;">
+            <mat-toolbar color="accent">
+                Messages
+            </mat-toolbar>
+            <app-messages></app-messages>
+        </mat-sidenav-content>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <mat-toolbar class="sticky-top">
+                <mat-icon color="accent" 
+                    (click)="sidenav.toggle()"
+                    fxHide.gt-md
+                >menu
+                </mat-icon>
+    
+                <h1>{{ title | uppercase }}</h1>
+                <div fxFlex fxLayoutAlign="center center"></div>
+                <a  
+                    fxFlex
+                    fxLayoutAlign="center center"
+                    fxHide.lt-md
+                    routerLink="/dashboard"
+                    routerLinkActive="active"
+                    (click)="sidenav.close()">
+                    <mat-icon color="accent">dashboard</mat-icon>
+                    <span>{{ "dashboard" | uppercase}}</span>
+                </a>
+                <a  fxFlex
+                    fxLayoutAlign="center center"
+                    fxHide.lt-md
+                    routerLink="/heroes"
+                    routerLinkActive="active"
+                    (click)="sidenav.close()">
+                    <mat-icon color="accent">person</mat-icon>
+                    <span>{{ "heroes" | uppercase}}</span>
+                </a>
+                <div fxFlex fxFlexLayout="sapce-between"></div>
+
+                <mat-icon color="primary"
+                    (click)="messageNav.toggle()">message
+                </mat-icon>
+            
+        </mat-toolbar>
+        <main class="container">
+            <router-outlet></router-outlet>
+        </main> 
+    </mat-sidenav-content>
+</mat-sidenav-container>
+

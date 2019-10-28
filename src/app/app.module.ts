@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import { HttpClientInMemoryWebApiModule } from "angular-in-memory-web-api";
+import { FlexLayoutModule } from "@angular/flex-layout";
 import { InMemoryDataService } from "./in-memory-data.service";
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +14,8 @@ import { MessagesComponent } from './messages/messages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material.module';
+
 
 @NgModule({
   declarations: [
@@ -21,13 +24,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    HeroSearchComponent
+    HeroSearchComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    MaterialModule,
     HttpClientModule,
+    FlexLayoutModule,
     HttpClientInMemoryWebApiModule.forRoot(
       InMemoryDataService, {dataEncapsulation: false}
     ),
