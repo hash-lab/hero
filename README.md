@@ -32,7 +32,7 @@ $ ng serve
 
 ### MOBILE VIEW:
 
-![Mobile View](./readme-assets/mobile-view.png)
+![Mobile View](./readme-assets/mobile-views.png)
 
 ### DESKTOP VIEW:
 
