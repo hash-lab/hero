@@ -1,3 +1,5 @@
+<div style="background-color: #f7f7f7">
+
 # Tour of Hero app the angular official tutorial for angular 8.3.12:
 
 ### Required Environment:
@@ -57,3 +59,5 @@ $ ng serve
 > hero/${branch -- material-hero }
 >
 > Coming Soon.
+
+</div>
